@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-rose-100">
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-gray-800">FELOU!</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#features" class="text-gray-600 hover:text-blue-500">Instagram</a></li>
+                    <li><a href="aboutfelo.html" class="text-gray-600 hover:text-blue-500">About</a></li>
+                    <li><a href="#contact" class="text-gray-600 hover:text-blue-500">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="bg-yellow-900 text-white py-20">
+            <div class="container mx-auto text-center">
+                <h2 class="text-4xl font-bold mb-4">FELOU Boutique</h2>
+                <p class="text-3x1 italic mb-6">Discover the best way to manage your business efficiently.</p>
+                <a href="#features" class="bg-white text-blue-500 px-6 py-3 rounded-full shadow-md hover:bg-gray-100">Learn More</a>
+            </div>
+        </section>
+
+        <section id="features" class="py-16">
+            <div class="container mx-auto text-center">
+                <h3 class="text-3xl font-bold mb-8">New Product</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h4 class="text-xl font-bold mb-2">Denim Blazer</h4>
+  			<p><img src="https://i.pinimg.com/736x/7a/b2/0a/7ab20af9c6122ae8665665e8bc0d864d.jpg"></p>
+			<p>The perfect fusion of casual cool and polished sophistication, Felou's Denim Blazer redefines versatility. Crafted from premium stretch denim for all-day comfort, this tailored yet relaxed piece effortlessly transitions from office chic to weekend casual.</p>
+                        <p>.</p>
+			<p>Rp 550.000</p>
+			<p>Order now</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h4 class="text-xl font-bold mb-2">Denim Bag</h4>
+			<p><img src="https://i.pinimg.com/736x/45/a4/f9/45a4f9f7ca619cdb56f3cbb5fa56b1f3.jpg"></p>
+			<p>Crafted from premium-quality denim, Felou’s signature bags blend rugged durability with effortless style. Designed for the modern urban explorer.</p>
+                        <p>.</p>
+			<p>Rp 899.000</p>
+			<p>Order now</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h4 class="text-xl font-bold mb-2">Denim Shoes</h4>
+			<p><img src="https://i.pinimg.com/736x/a7/5d/58/a75d582bd93cae06e2a7d90f6f2e5d93.jpg"></p>
+			<p>Crafted for the modern explorer, Felou's Denim Shoes blend rugged charm with urban sophistication. Made from premium distressed denim and reinforced stitching.</p>
+                        <p>.</p>
+                        <p>Rp 1.299.999</p>
+			<p>Order now</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="bg-gray-50 py-16">
+            <div class="container mx-auto text-center">
+                <h3 class="text-3xl font-bold mb-8">About Us</h3>
+                <p class="max-w-2xl mx-auto">contemporary clothing brand offering high-quality, stylish, and comfortable apparel for women. We blend the latest trends with timeless elegance, creating versatile pieces perfect for everyday wear and special occasions.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="py-16">
+            <div class="container mx-auto text-center">
+                <h3 class="text-3xl font-bold mb-8">Contact Us</h3>
+                <form action="http://localhost/submit.php" method="POST" class="max-w-lg mx-auto">
+                    <div class="mb-4">
+                        <label for="name" class="block text-left font-bold">Name</label>
+                        <input type="text" id="name" name="name" class="w-full p-2 border rounded-lg" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-left font-bold">Email</label>
+                        <input type="email" id="email" name="email" class="w-full p-2 border rounded-lg" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-left font-bold">Message</label>
+                        <textarea id="message" name="message" rows="5" class="w-full p-2 border rounded-lg" required></textarea>
+                    </div>
+                    <button type="submit" class="bg-blue-300 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 BrandName. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
